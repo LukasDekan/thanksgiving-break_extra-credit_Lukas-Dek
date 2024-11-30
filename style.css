@@ -1,0 +1,66 @@
+@import url("https://fonts.googleapis.com/css2?family=Italianno&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Italianno&family=Jacques+Francois&display=swap");
+
+:root{
+    background-color: white;
+}
+
+
+nav {
+    background-color: whitesmoke;
+    /* border-bottom: 3px solid black;
+    border-top: 3px solid black; */
+    display: flex;
+    /* list-style-type: none; */
+    padding: 0;
+    justify-content: space-evenly;
+    height: 6rem;
+    z-index: 100;
+    box-shadow: 0px 10px rgb(205, 204, 204);      
+}
+
+nav > a {
+    align-self: center;
+    /* padding: 0.5rem;
+    border: 1px solid black; */
+    font-size: xx-large;
+    /*   */
+    text-decoration: none;
+    color: black;
+    font-family: 'Jacques Francois', ital;
+    /* width: 20%;
+    height: 5%; */
+}
+
+.home-button{
+    /* justify-self: flex-start; */
+    font-family: 'Italianno', ital;
+}
+
+.home-button:hover{
+    color: orangered;
+    text-decoration: underline;
+    transition-duration: 600ms;
+}
+
+.home-button:focus{
+    color: orangered;
+    text-decoration: underline;
+    transition-duration: 600ms;
+}
+
+nav > a:hover{
+    color: orange;
+    transition-duration:400ms;
+}
+
+nav > a:focus{
+    color: orange;
+    transition-duration:400ms;
+}
+
+.vl {
+  border-left: 3px solid black;
+  height: 5rem; 
+}
+ 
