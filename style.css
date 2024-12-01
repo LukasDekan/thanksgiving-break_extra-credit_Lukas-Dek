@@ -3,6 +3,7 @@
 
 :root{
     background-color: white;
+    font-family: 'Jacques Francois', ital;
 }
 
 
@@ -12,11 +13,14 @@ nav {
     border-top: 3px solid black; */
     display: flex;
     /* list-style-type: none; */
-    padding: 0;
+    position: fixed;
+    width: 100%;
+    padding: 1rem;
     justify-content: space-evenly;
     height: 6rem;
     z-index: 100;
-    box-shadow: 0px 10px rgb(205, 204, 204);      
+    box-shadow: 0px 10px rgb(205, 204, 204);  
+    top:0rem;
 }
 
 nav > a {
@@ -35,6 +39,9 @@ nav > a {
 .home-button{
     /* justify-self: flex-start; */
     font-family: 'Italianno', ital;
+    text-decoration: none;
+    font-size: xx-large;
+    color: black;
 }
 
 .home-button:hover{
@@ -62,5 +69,61 @@ nav > a:focus{
 .vl {
   border-left: 3px solid black;
   height: 5rem; 
+}
+
+footer {
+    display: flex;
+    flex-direction: row;
+    /* justify-self: center; */
+    justify-content: space-around;
+    align-content: space-around;
+    text-align: center;
+    
+
+    color:black;        
+    width:100%;
+    background-color: whitesmoke;
+    box-shadow: 0px 10px rgb(205, 204, 204);
+  }
+
+.footer_text {
+    font-size: large;
+}
+
+.footer-title{
+    display:flex;
+    align-self: center;
+    font-weight: 600;
+    font-size: 64px;
+
+    color: lightgrey;
+  }
+
+  .footer_content{
+    display: flex;
+    text-align: left;
+    flex-direction: column;
+    align-self: center;
+  }
+
+  .phone_icon{
+    display:flex;
+    align-self: flex-start;
+  }
+
+  .footer_buttons{
+    display: flex;
+    flex-direction: column;
+  }
+
+.text {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: center;
+    height:0.2rem; 
+    padding:15rem;
+    font-size: x-large;
+    line-height: 180%;
 }
  
