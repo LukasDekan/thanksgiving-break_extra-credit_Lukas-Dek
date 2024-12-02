@@ -197,3 +197,103 @@ footer {
     font-size: medium;
     line-height: 180%;
 }
+
+.container {
+  max-width: 1536px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 0.5rem;
+  padding-right: 0.5rem;
+}
+
+/* 2xl */
+@media (max-width: 1536px) {
+  .container {
+    max-width: 1280px;
+  }
+  .text{
+    font-size: large;
+  }
+}
+
+/* xl */
+@media (max-width: 1280px) {
+  .container {
+    max-width: 1024px;
+  }
+  .text{
+    font-size: large;
+  }
+}
+
+/* lg */
+@media (max-width: 1024px) {
+  .container {
+    max-width: 768px;
+  }
+  .text{
+    font-size: medium;
+  }
+  nav > a{
+    font-size: large;
+  }
+}
+
+/* md */
+@media (max-width: 768px) {
+  .container {
+    max-width: 640px;
+  }
+  .text{
+    font-size: small;
+  }
+  nav > a{
+    font-size: medium;
+  }
+}
+
+/* sm */
+@media (max-width: 640px) {
+  .container {
+    max-width: 475px;
+  }
+  .text{
+    font-size: x-small;
+  }
+  nav > a{
+    font-size: medium;
+  }
+}
+
+/* xs */
+@media (max-width: 475px) {
+  .container {
+    width: 100%;
+  }
+  .text{
+    font-size: xx-small;
+    height: 0rem;
+    padding:0rem;
+  }
+  nav > a{
+    font-size: xx-small;
+  }
+}
+
+/* .text {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  align-items: center;
+  height:0.2rem; 
+  padding:15rem;
+  font-size: x-large;
+  line-height: 180%;
+} */
+
+/* .home-button{
+  font-family: 'Italianno', ital;
+  text-decoration: none;
+  font-size: xx-large;
+  color: black;
+} */
